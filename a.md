@@ -80,4 +80,4 @@ class: center, middle
  - 文件夹\sparsenet中包含Olshausen的源程序，可用于参考，如采用其中的部分函数或代码，需要在报告中具体声明。
  - 文件夹\images中包含输入的自然图片，文件夹\sparsenet中也包含一个图片集，但仅作参考，不能在本作业中使用。
 
-----
+----</textarea><script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script><script>  var slideshow = remark.create();</script></body></html>
