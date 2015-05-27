@@ -1,4 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+
 # 小组作业
+
 ----
 
 # 自由组合
@@ -7,6 +32,7 @@
  - zhangqipsy@163.com
  - 在5月28日没有确定分组的同学请在5月28日晚7点前和助教联系，可在9点后登陆教学网上看最后分组。
  - 第一次上机时间5月29日下午1:00-3:00 哲学楼120,122机房。
+
 ----
 
 
@@ -15,6 +41,7 @@
     + 字母辨别任务。每一组都包含两个不同的字母（比如T和D），根据指导语的要求做简单的按键反应，如T按左键，D按右键。字母在中央视野呈现。字母与不同程度的噪音（随机点）合成，分为4个难度（SNR：0.5, 0.4, 0.3,0.2）。被试的任务完成有两种指导语（Accuracy‐speed tradeoff），一是要求被试尽快反应（Speed组）；二是要求被试尽量获得高正确率（Accuracy组）。
  - 自行编写程序，采集实验数据（组内2名被试）。
  - 实验为 将实验行为数据为输入模型工具包，拟合并预测反应时分布和正确与错误试次的比率。
+
 ----
 
 # 具体程序及设置
@@ -23,15 +50,21 @@
   1. 条件编号
   2. 正确错误
   3. 反应时
+
 ----
 
 # 结果图参考
 
 ![a](a.png)
+
 ----
+
 ![b](b.png)
+
 ----
+
 ![c](c.png)
+
 ----
 
 # Sparse coding
@@ -40,9 +73,11 @@
  - 图片集需自己采集，不能用Olshausen程序包中的图片。
  - 必须有一组自然图片的结果。
  - 鼓励尝试其他类型的图片，如面孔图片、汉子图片等，作为输入，看训练的基函数具备什么特征。
+
 ----
 
 # Sparse Coding
  - 文件夹\sparsenet中包含Olshausen的源程序，可用于参考，如采用其中的部分函数或代码，需要在报告中具体声明。
  - 文件夹\images中包含输入的自然图片，文件夹\sparsenet中也包含一个图片集，但仅作参考，不能在本作业中使用。
+
 ----
